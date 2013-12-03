@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/adstormer.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<title>AdStormer</title>
+	</head>
+	<body>
+		<div id='head-wrapper'>AdStormer</div>
+		<h1>Rules</h1>
+		<div id='instructions'>
+			<ul>
+				<li>Only tasteful ads get approved by google</li><br>
+				<li>Only one exclamation point allowed!</li><br>
+				<li>Prepositions should be lowercase</li><br>
+				<li>Display Url should be relevant to the ad</li><br>
+				<li>Make an impression, so the ad clicks ;)</li><br>
+				<li>You only have 130 characters, so be creative!</li>
+			</ul>
+		</div>
+			<div id='theGoodStuff'>
+				<input type='text' id='headline' maxlength='25' value="Headline"><br>
+				<input type='text' id='display_url' class="non_headline" maxlength='35' value="Display URL e.g.'www.jonringvald.com/Yay!'"><br>
+				<input type='text' id='description_line_1' class="non_headline" maxlength='35' value="Description Line 1"><br>
+				<input type='text' id='description_line_2' class="non_headline" maxlength='35' value="Description Line 2">
+			</div>
+			<div id='headline_error'>Placeholder</div>
+			<p>&trade;Jonathan Ringvald 2013</p>
+
+		<script src="js/adStormer.js"></script>
+	</body>
+	</html>

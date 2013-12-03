@@ -1,0 +1,68 @@
+body{
+	font:arial;
+	font-size:20px;
+}
+/*div{
+	border:solid 1px red;
+}*/
+input{
+	border:none;
+	font:arial;
+	width:95%;
+	height:50px;
+	font-size:25px;
+	/*padding-right:10px;*/
+}
+input#headline{
+	/*border:none;
+	font:arial;
+	width:95%;
+	height:50px;*/
+	font-size:30px;
+	color:#0000FF;
+	text-decoration: underline;
+}
+input#display_url{
+	font-size:18px;
+	color:green;
+}
+#head-wrapper{
+	font-size:90px;
+}
+#theGoodStuff{
+	width:50%;
+	text-align:center;
+	margin-left:45%;
+	margin-top:50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow:3px 5px 3px 5px;
+}
+#headline_error{
+	width:50%;
+	text-align:center;
+	margin-left:45%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#instructions{
+	position:absolute;
+	left:10px;
+	top:200px;
+	width:40%;
+	padding:10px 10px 10px 10px;
+}
+ul{
+	font-size:25px;
+	list-style-type:none; 
+}
+h1{
+	margin-left:20px;
+}
+p{
+	position:absolute;
+	right:5px;
+	bottom:0px;
+}
+
+
